@@ -1,4 +1,10 @@
 const form = document.querySelector("form");
 
 const obj = {};
-const wos = [];
+
+form.addEventListener("input", (evt) => {
+  const key = evt.target.name;
+  const value = evt.target.value;
+
+  obj[key] = value;
+});
