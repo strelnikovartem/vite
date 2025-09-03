@@ -1,5 +1,7 @@
 const form = document.querySelector("form");
 
 form.addEventListener("input", (evt) => {
-  console.log(evt.target.value);
+  const textInput = evt.target.value;
+  const emailInput = evt.target.value;
+  const passInput = evt.target.value;
 });
