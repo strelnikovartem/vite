@@ -7,5 +7,4 @@ form.addEventListener("input", (evt) => {
   const value = evt.target.value;
 
   obj[key] = value;
-  console.log(obj);
 });
